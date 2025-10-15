@@ -1,0 +1,24 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>date-time</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">date-time</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+
+ <ion-datetime value={{Fecha}}></ion-datetime>
+
+ <ion-datetime min={{minimo}} max={{maximo}}></ion-datetime>
+
+<ion-datetime min="{{maximo}}" max="{{minimo}}"(click)="MostrarDatos()"></ion-datetime>
+
+
+</ion-content>
+
+
